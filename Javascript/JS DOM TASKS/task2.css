@@ -1,0 +1,26 @@
+#downloadBar{
+    height: 20px;
+    width: 300px;
+    background-color: #dadada;
+ 
+    border: 1px solid black;
+    border-radius: 10px;
+    
+
+}
+
+#progress{
+    height: 20px;
+    width: 10px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#center h3{
+    opacity: 0;
+}

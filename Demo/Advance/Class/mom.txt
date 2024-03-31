@@ -1,0 +1,17 @@
+class basic syntax
+the class syntax
+class expression
+
+getter/setter
+computed names
+class fields
+making bound method with class fields
+
+
+
+
+employee - data types functions 
+wrap up into single entity - class
+
+class - blueprint,prototype,category
+es6 -class block

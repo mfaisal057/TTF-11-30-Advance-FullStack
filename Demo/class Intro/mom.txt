@@ -1,0 +1,23 @@
+Date 28th march , 2024
+
+Last Class - rest spread etc 
+
+Class - prptotpes, blueprint , category
+
+// class syntax
+
+// class expression 
+
+.. class field 
+
+
+// class object instancen 
+
+// constrcutorr
+
+
+
+
+
+
+

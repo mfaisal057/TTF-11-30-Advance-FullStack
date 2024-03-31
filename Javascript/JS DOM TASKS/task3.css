@@ -1,0 +1,52 @@
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+.container{
+    padding: 10vw 25vw;
+
+}
+.img{
+    height: 7vw;
+    width: 7vw;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+
+
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+input{
+    /* height: 20px; */
+    padding: 12px 22px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: royalblue;
+   
+}
+.people{
+    /* padding: 10px 25px; */
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+.person{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}

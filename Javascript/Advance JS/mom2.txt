@@ -1,0 +1,15 @@
+
+
+js code - compiler/trasnlate - 2 phas e
+
+parsing phase - scope resolution - scope manager - formatted declared variables 
+
+executiuon phase 
+
+parsing phase - scopes - 4 
+global
+local blo0cked
+function
+module level scope - node js 
+
+

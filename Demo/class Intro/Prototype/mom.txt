@@ -1,0 +1,2 @@
+prototype - hidden feature, hidden class associated
+
