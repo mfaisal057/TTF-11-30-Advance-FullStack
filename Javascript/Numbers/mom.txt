@@ -1,0 +1,14 @@
+Date 4th april , 2024
+
+-Number
+rounding 
+florr ceil trunc to fix tostring 
+
+
+//array - 
+//string -
+//immutablity and mutability
+
+
+
+
