@@ -1,0 +1,18 @@
+Date 11th april, 2024
+
+-Advance Data Types
+
+Map ,set, weak mao, weak set, hidden props of object
+
+
+array map - method
+map= data type
+
+data types - prototype-class
+number - number
+sTRING=sTRING
+Bool=Boolean
+
+Map - Map
+
+-object jeas hota hi
