@@ -1,0 +1,26 @@
+dom - dom (animation-manipulations)+event handlers + BOM api
+
+dom= document object model
+
+root - document 
+
+1-selectors
+html selectors - dom wale
+
+html - 
+id 
+class 
+tag/elemtn
+
+
+dom - queryselctr
+queryselectorsall
+--------------------------------------
+create lemnt using js
+
+
+
+
+
+event listners 
+

@@ -1,0 +1,14 @@
+Date 19th april, 2024
+
+Last Class - dom 
+
+event listners -
+
+events 
+mouse -click, dblckic, enter , out
+
+
+keyboard
+form'
+
+
