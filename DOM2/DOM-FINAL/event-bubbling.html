@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parentdiv{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .childdiv{
+            height: 100px;
+            width: 150px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parentdiv" id="parentdiv">
+        <div class="childdiv" id="childdiv">
+            <button class="button" id="btn">click me </button>
+        </div>
+    </div>
+    
+
+    <script>
+        let parentdiv=document.getElementById("parentdiv");
+        let childdiv=document.getElementById("childdiv");
+        let button =document.getElementById("btn");
+
+        button.addEventListener("click",function(event){
+            // event.stopPropagation()
+            console.log(" i am clicked - button");
+        },true)
+
+        childdiv.addEventListener("click",function(event)
+        {
+            console.log(" i am clciked - child");
+        },true)
+        parentdiv.addEventListener("click",function(event){
+            // event.stopPropagation()
+            console.log(" ia m clciked - parent");
+        },true)
+
+
+
+
+     
+
+    </script>
+</body>
+</html>

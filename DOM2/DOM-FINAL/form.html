@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="form" name="form">
+        <input type="text" placeholder="firstname" id="firstname">
+        <input type="text" placeholder="lname" id="lastname">
+        <input type="text" placeholder="age" id="age">
+        <input type="submit" id="button">
+    
+    </form>
+    <form id="form" name="form2">
+        <input type="text" placeholder="firstname" id="firstname">
+        <input type="text" placeholder="lname" id="lastname">
+        <input type="text" placeholder="age" id="age">
+        <input type="submit" id="button">
+    
+    </form>
+    
+    <script> 
+    //method 1
+
+    // let fname=document.getElementById("firstname");
+    // let lastname=document.getElementById("lastname")
+    // let age=document.getElementById("age")
+    // let button=document.getElementById("button")
+
+    // console.log(fname);
+    // console.log(lastname);
+    // console.log(age);
+    // console.log(button);
+
+    //method 2 - event
+// let form =document.getElementById("form");
+// // console.log(form);
+// // console.dir(form)
+
+// form.addEventListener("submit",function (event){
+//     event.preventDefault()
+//     console.log(event);
+//     console.log(event.target);
+//     console.log("----------");
+
+//     for(const elt of event.target){
+//         console.log(elt);
+        
+//     }
+// })
+
+
+// //method 3 
+// let form =document.getElementById("form")
+// // console.log(document.forms[0]);
+// console.log(document.forms['form']);
+// console.log(document.forms['form2']);
+// form.addEventListener("submit",function(event){
+//     event.preventDefault()
+//     console.log(" form fired");
+//     console.log(event.target);
+// })
+// console.log("0----------------------------");
+
+
+// for(const elt of document.forms['form']){
+//     console.log(elt);
+//     console.dir(elt)
+//     console.log(elt.target)
+
+
+// }
+
+
+// console.log(document.forms);
+// console.log(document.querySelectorAll("form"));
+
+
+// console.log(document.forms['form']);
+// console.log(document.forms["form2"]);
+
+// for(const elt of document.forms['form']){
+//     console.log(elt);
+//     console.log(elt.target.value);
+// }
+let form=document.getElementById("form")
+
+form.addEventListener("submit",function(event){
+    event.preventDefault()
+    for(const elt of document.forms["form"]){
+        console.log(elt);
+        let ans =event.target;
+        console.log(ans);
+
+    }
+
+
+})
+
+
+
+
+        
+
+        </script>
+</body>
+</html>
